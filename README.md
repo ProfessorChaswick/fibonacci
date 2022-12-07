@@ -1,0 +1,3 @@
+## fibonacci
+Simple fibonacci series using recursion...
+I added lru_cache from functools to greatly increase speed when going past the first few numbers in the series using momeization.
