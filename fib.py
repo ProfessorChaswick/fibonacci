@@ -1,6 +1,6 @@
-from functools import lru_cache
+from functools import lru_cache # To cache the resulte of the recursions making this WAY faster
 import locale
-
+"""Using recursion to find the fibonacci numbers. The '@lru_cache' gives the speed by cacheing """
 @lru_cache(maxsize=1000)
 def fibb(n):
     if n == 1:
